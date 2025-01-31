@@ -1,0 +1,21 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --env-file=.env --watch src/app.ts",
+    "db":"tsx --env-file=.env src/config/database.ts"
+  },
+  "repository": "https://github.com/marcosfrancomarinho/code",
+  "author": "marcosmarinho <139090070+marcosfrancomarinho@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.11",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
